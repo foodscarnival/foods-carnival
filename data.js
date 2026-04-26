@@ -105,6 +105,7 @@ const MENU_ITEMS = [
   { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:''        },
   { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&q=85', badge:''        },
   { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=85', badge:'Premium' },
+  {id: 101, cat: 'refresh',name: 'Rajasthani Gol Gappe',price: 250,desc: 'Crispy gol gappe with spicy and tangy flavored water.',img: 'https://images.unsplash.com/photo-1601050638917-3f369a473911?q=80&w=1000&auto=format&fit=crop', badge: 'New'  },
 ];
 
 // ============================================================
