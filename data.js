@@ -35,10 +35,10 @@ const MENU_ITEMS = [
   // ── SHAWARMA ──────────────────────────────────────────────
   { id:25, cat:'shawarma', name:'Chicken Shawarma',       price:169, desc:'Classic chicken shawarma wrap',              img:'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=85', badge:'Popular' },
   { id:26, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=1000&auto=format&fit=crop', badge:''        },
-  { id:27, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=500&q=85', badge:''        },
-  { id:28, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=500&q=85', badge:''        },
-  { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic-style shawarma',          img:'https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=500&q=85', badge:'Special'},
-  { id:30, cat:'shawarma', name:'Turkish Shawarma',       price:249, desc:'Turkish-spiced chicken shawarma',            img:'https://images.unsplash.com/photo-1658726623820-b1da69e36e42?w=500&q=85', badge:''        },
+  { id:27, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?q=80&w=1000&auto=format&fit=crop', badge:''        },
+  { id:28, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', badge:''        },
+  { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic-style shawarma',          img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1000', badge:'Special'},
+  { id:30, cat:'shawarma', name:'Turkish Shawarma',       price:249, desc:'Turkish-spiced chicken shawarma',            img:'https://cdn.pixabay.com/photo/2025/10/16/13/26/kofta-9898218_1280.jpg', badge:''        },
 
   // ── FRIED WINGS ───────────────────────────────────────────
   { id:31, cat:'wings', name:'Fried Wings (6 pcs)',     price:349, desc:'6 crispy golden fried chicken wings',       img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85', badge:'Popular' },
@@ -57,10 +57,10 @@ const MENU_ITEMS = [
   { id:42, cat:'fries', name:'Matka Fries',      price:699, desc:'Unique fries served in a clay matka pot',      img:'https://images.unsplash.com/photo-1604357209793-fca5dca89f97?w=500&q=85', badge:'Unique'     },
 
   // ── WRAPS ─────────────────────────────────────────────────
-  { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani-spiced chicken in a soft tortilla wrap', img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500&q=85', badge:''          },
+  { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani-spiced chicken in a soft tortilla wrap', img:'https://media.istockphoto.com/id/594039684/photo/wraps.jpg?s=612x612&w=0&k=20&c=nZ_MMVwEaP1vOZvuwX-bLqkQdworMbQT_7JwdgLVP5s=', badge:''          },
   { id:44, cat:'wraps', name:'Food Carnival Wrap', price:349, desc:'Our signature loaded wrap',                       img:'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=85', badge:'Signature' },
-  { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic-style chicken wrap',                       img:'https://images.unsplash.com/photo-1640467890720-4e9b15e40a40?w=500&q=85', badge:''          },
-  { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=500&q=85', badge:'Popular'   },
+  { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic-style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2023/10/21/09/00/ai-generated-8331065_1280.jpg', badge:''          },
+  { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://media.istockphoto.com/id/171352484/photo/chicken-wrap.jpg?s=612x612&w=0&k=20&c=mdTnraCLUY0UaqJz9hj6TNg1G4BfGdvgISOklQXp3XE=', badge:'Popular'   },
 
   // ── PASTA ─────────────────────────────────────────────────
   { id:47, cat:'pasta', name:'Food Carnival Pasta (Small)', price:299, desc:'Our signature house pasta',          img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:'Special' },
