@@ -8,28 +8,62 @@ const MENU_ITEMS = [
   { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85', badge:'Popular'   },
   { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85', badge:''           },
   { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1000&auto=format&fit=crop', badge:''           },
-  { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double-stacked loaded burger',                       img:'https://images.unsplash.com/photo-1586816001966-79b736744398?w=500&q=85', badge:'Special'    },
+  { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double stacked loaded burger',                       img:'https://images.unsplash.com/photo-1586816001966-79b736744398?w=500&q=85', badge:'Special'    },
   { id:5,  cat:'burgers', name:'Jalapeno Burger',       price:399, desc:'Fiery jalapeno burger with house hot sauce',         img:'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=500&q=85', badge:'Spicy'      },
-  { id:6,  cat:'burgers', name:'Maxican Burger',        price:399, desc:'Mexican-style burger with bold spices',              img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85', badge:''           },
+  { id:6,  cat:'burgers', name:'Maxican Burger',        price:399, desc:'Mexican style burger with bold spices',              img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85', badge:''           },
   { id:7,  cat:'burgers', name:'Lava Zinger Burger',    price:449, desc:'Zinger with signature lava hot sauce',               img:'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&q=85', badge:'Hot'        },
-  { id:8,  cat:'burgers', name:'Pizza Burger',          price:449, desc:'Burger stacked with pizza-style toppings',           img:'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=1000&auto=format&fit=crop', badge:'Fusion'     },
+  { id:8,  cat:'burgers', name:'Pizza Burger',          price:449, desc:'Burger stacked with pizza style toppings',           img:'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=1000&auto=format&fit=crop', badge:'Fusion'     },
   { id:9,  cat:'burgers', name:'Chicken Burger',        price:249, desc:'Classic chicken burger with fresh garden veggies',   img:'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1000', badge:''           },
   { id:10, cat:'burgers', name:'Chicken Cheese Burger', price:299, desc:'Chicken patty with cheese slice & house sauce',      img:'https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?q=80&w=1000&auto=format&fit=crop', badge:''           },
   { id:12, cat:'burgers', name:'Lapeta Egg Burger',     price:179, desc:'Egg Lapeta burger   best value',                     img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85', badge:'Value'      },
 
   // ── PIZZA ─────────────────────────────────────────────────
-  { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Popular'   },
-  { id:14, cat:'pizza', name:'Tikka Pizza (Small)',           price:399, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Spicy'     },
-  { id:15, cat:'pizza', name:'Fajita Pizza (Small)',          price:399, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:''          },
+  { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
+  { id:13, cat:'pizza', name:'BBQ Pizza (medium)',            price:699, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
+  { id:13, cat:'pizza', name:'BBQ Pizza (large)',             price:999, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
+
+  { id:14, cat:'pizza', name:'Tikka Pizza (Small)',           price:399, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
+  { id:14, cat:'pizza', name:'Tikka Pizza (medium)',          price:699, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
+  { id:14, cat:'pizza', name:'Tikka Pizza (large)',           price:999, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
+
+  { id:15, cat:'pizza', name:'Fajita Pizza (Small)',          price:399, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
+  { id:15, cat:'pizza', name:'Fajita Pizza (medium)',         price:699, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
+  { id:15, cat:'pizza', name:'Fajita Pizza (large)',          price:999, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
+
   { id:16, cat:'pizza', name:'Foods Carnival Pizza (Small)', price:449, desc:'Our signature loaded special pizza',             img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
+  { id:16, cat:'pizza', name:'Foods Carnival Pizza (medium)',price:799, desc:'Our signature loaded special pizza',             img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
+  { id:16, cat:'pizza', name:'Foods Carnival Pizza (large)', price:1199, desc:'Our signature loaded special pizza',            img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
+
+  
   { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (medium)',          price:799, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (large)',           price:1199, desc:'Donut crust loaded pizza',                     img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
+
   { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (medium)',     price:799, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (large)',      price:1199, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
+
   { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (medium)',    price:799, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (large)',     price:1199, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+
   { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (medium)',       price:799, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (large)',        price:1199, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+
   { id:21, cat:'pizza', name:'Pepperoni Pizza (Small)',       price:449, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
+  { id:21, cat:'pizza', name:'Pepperoni Pizza (medium)',      price:799, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
+  { id:21, cat:'pizza', name:'Pepperoni Pizza (large)',       price:1199, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
+
   { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (medium)',         price:799, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (large)',          price:1199, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
+
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:449, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
-  { id:24, cat:'pizza', name:'Matka Pizza',                   price:799, desc:'One of a kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
+  { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:799, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
+  { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:1199, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
+
+  { id:24, cat:'pizza', name:'Matka Pizza(medium)',           price:799, desc:'One of a kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
 
   // ── SHAWARMA ──────────────────────────────────────────────
   { id:25, cat:'shawarma', name:'Chicken Shawarma',       price:169, desc:'Classic chicken shawarma wrap',              img:'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=85', badge:'Popular' },
@@ -56,9 +90,9 @@ const MENU_ITEMS = [
   { id:42, cat:'fries', name:'Matka Fries',      price:699, desc:'Unique fries served in a clay matka pot',      img:'https://cdn.pixabay.com/photo/2024/01/23/08/11/ai-generated-8527044_1280.jpg', badge:'Unique'     },
 
   // ── WRAPS ─────────────────────────────────────────────────
-  { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani-spiced chicken in a soft tortilla wrap', img:'https://media.istockphoto.com/id/594039684/photo/wraps.jpg?s=612x612&w=0&k=20&c=nZ_MMVwEaP1vOZvuwX-bLqkQdworMbQT_7JwdgLVP5s=', badge:''          },
+  { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani spiced chicken in a soft tortilla wrap', img:'https://media.istockphoto.com/id/594039684/photo/wraps.jpg?s=612x612&w=0&k=20&c=nZ_MMVwEaP1vOZvuwX-bLqkQdworMbQT_7JwdgLVP5s=', badge:''          },
   { id:44, cat:'wraps', name:'Food Carnival Wrap', price:349, desc:'Our signature loaded wrap',                       img:'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=85', badge:'Signature' },
-  { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic-style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2023/10/21/09/00/ai-generated-8331065_1280.jpg', badge:''          },
+  { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2023/10/21/09/00/ai-generated-8331065_1280.jpg', badge:''          },
   { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://media.istockphoto.com/id/171352484/photo/chicken-wrap.jpg?s=612x612&w=0&k=20&c=mdTnraCLUY0UaqJz9hj6TNg1G4BfGdvgISOklQXp3XE=', badge:'Popular'   },
 
   // ── PASTA ─────────────────────────────────────────────────
@@ -66,13 +100,13 @@ const MENU_ITEMS = [
   { id:51, cat:'pasta', name:'Food Carnival Pasta (Large)', price:549, desc:'Large signature house pasta',         img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:''        },
   { id:48, cat:'pasta', name:'Chicken Cheese Pasta (Small)',price:299, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
   { id:48, cat:'pasta', name:'Chicken Cheese Pasta (large)',price:499, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
-  { id:49, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish-spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
-  { id:49, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish-spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
+  { id:49, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
+  { id:49, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
   { id:50, cat:'pasta', name:'Alfredo Pasta (Small)',       price:399, desc:'Rich creamy classic Alfredo pasta',   img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
   { id:52, cat:'pasta', name:'Alfredo Pasta (Large)',       price:599, desc:'Large creamy Alfredo pasta',          img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
 
   // ── SANDWICH ──────────────────────────────────────────────
-  { id:53, cat:'sandwich', name:'Club Sandwich',          price:299, desc:'Triple-decker classic club sandwich',     img:'https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500&q=85', badge:''        },
+  { id:53, cat:'sandwich', name:'Club Sandwich',          price:299, desc:'Triple decker classic club sandwich',     img:'https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500&q=85', badge:''        },
   { id:54, cat:'sandwich', name:'Chicken Cheese Sandwich',price:349, desc:'Toasted chicken & cheese sandwich',       img:'https://cdn.pixabay.com/photo/2023/08/12/02/58/sandwich-8184642_1280.png', badge:'Popular' },
   { id:55, cat:'sandwich', name:'Pizza Sandwich',         price:399, desc:'Sandwich with pizza sauce & toppings',    img:'https://cdn.pixabay.com/photo/2022/10/07/15/46/sandwich-7505382_1280.jpg', badge:''        },
   { id:56, cat:'sandwich', name:'Grill Sandwich',         price:349, desc:'Hot grilled sandwich with fillings',      img:'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=85', badge:''        },
@@ -89,7 +123,7 @@ const MENU_ITEMS = [
   { id:63, cat:'buffball', name:'Chickenstake (5 pcs)',      price:399, desc:'5 juicy chicken stake pieces',  img:'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500&q=85', badge:'Popular' },
 
   // ── SODA & DRINKS ─────────────────────────────────────────
-  { id:64, cat:'drinks', name:'1.5 Liter Cold Drink',  price:199, desc:'1.5L bottle — Pepsi / 7Up / Mirinda',      img:'https://images.unsplash.com/photo-1554866585-cd94860890b7?w=500&q=85', badge:''           },
+  { id:64, cat:'drinks', name:'1.5 Liter Cold Drink',  price:199, desc:'1.5L bottle  Pepsi / 7Up / Mirinda',      img:'https://images.unsplash.com/photo-1554866585-cd94860890b7?w=500&q=85', badge:''           },
   { id:65, cat:'drinks', name:'1 Liter Cold Drink',    price:150, desc:'1L cold drink bottle',                     img:'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&q=85', badge:''           },
   { id:66, cat:'drinks', name:'500ml Cold Drink',      price:99,  desc:'500ml cold drink can / bottle',            img:'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&q=85', badge:''           },
   { id:67, cat:'drinks', name:'Masala Lemon Soda',     price:99,  desc:'Tangy house masala lemon soda',            img:'https://images.unsplash.com/photo-1437418747212-8d9709afab22?w=500&q=85', badge:''           },
@@ -106,7 +140,7 @@ const MENU_ITEMS = [
   { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:''        },
   { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&q=85', badge:''        },
   { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=85', badge:'Premium' },
-  {id: 101, cat: 'refresh',name: 'Rajasthani Gol Gappe',price: 250,desc: 'Crispy gol gappe with spicy and tangy flavored water.',img: 'https://media.istockphoto.com/id/525340611/photo/pani-puri-golgappe-chat-item-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=ERDjp-8zeCqKa2Rf_eenKesXDpVcKdixrtq6wUSpmVI=', badge: 'New'  },
+  {id: 101, cat: 'refresh',name: 'Rajasthani Gol Gappe(12 pcs)',price: 250,desc: 'Crispy gol gappe with two flavor of khatta pani.',img: 'https://media.istockphoto.com/id/525340611/photo/pani-puri-golgappe-chat-item-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=ERDjp-8zeCqKa2Rf_eenKesXDpVcKdixrtq6wUSpmVI=', badge: 'New'  },
 ];
 
 // ============================================================
