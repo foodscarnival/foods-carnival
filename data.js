@@ -35,33 +35,33 @@ const MENU_ITEMS = [
   { id:16, cat:'pizza', name:'Foods Carnival Pizza (large)', price:1199, desc:'Our signature loaded special pizza',            img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
 
   
-  { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
-  { id:17, cat:'pizza', name:'Dount Pizza (medium)',          price:799, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
-  { id:17, cat:'pizza', name:'Dount Pizza (large)',           price:1199, desc:'Donut crust loaded pizza',                     img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (medium)',          price:799, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (large)',           price:1199, desc:'Donut crust loaded pizza',                     img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
 
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (medium)',     price:799, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (large)',      price:1199, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (medium)',     price:799, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (large)',      price:1199, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
 
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (medium)',    price:799, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (large)',     price:1199, desc:'Crowncrust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crowncrust pizza fully loaded',                img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (medium)',    price:799, desc:'Crowncrust pizza fully loaded',                img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (large)',     price:1199, desc:'Crowncrust pizza fully loaded',               img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
 
   { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
   { id:20, cat:'pizza', name:'Kababish Pizza (medium)',       price:799, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
-  { id:20, cat:'pizza', name:'Kababish Pizza (large)',        price:1199, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (large)',        price:1199, desc:'Kababis spiced pizza',                        img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
 
   { id:21, cat:'pizza', name:'Pepperoni Pizza (Small)',       price:449, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
   { id:21, cat:'pizza', name:'Pepperoni Pizza (medium)',      price:799, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
-  { id:21, cat:'pizza', name:'Pepperoni Pizza (large)',       price:1199, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
+  { id:21, cat:'pizza', name:'Pepperoni Pizza (large)',       price:1199, desc:'Classic pepperoni with extra cheese',          img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
 
   { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
   { id:22, cat:'pizza', name:'Hawain Pizza (medium)',         price:799, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
-  { id:22, cat:'pizza', name:'Hawain Pizza (large)',          price:1199, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (large)',          price:1199, desc:'Sweet & savoury Hawaiian pizza',               img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
 
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:449, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:799, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
-  { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:1199, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
+  { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:1199, desc:'Pizza with lasagna style layered topping',     img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
 
   { id:24, cat:'pizza', name:'Matka Pizza(medium)',           price:799, desc:'One of a kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
 
@@ -120,17 +120,17 @@ const MENU_ITEMS = [
 
   // ── BUFF BALL ─────────────────────────────────────────────
   { id:62, cat:'buffball', name:'Chicken Buff Ball (2 pcs)', price:299, desc:'2 crispy chicken buff balls',   img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85', badge:''        },
-  { id:63, cat:'buffball', name:'Chickenstake (5 pcs)',      price:399, desc:'5 juicy chicken stake pieces',  img:'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500&q=85', badge:'Popular' },
+  { id:63, cat:'buffball', name:'Chickenstake (5 pcs)',      price:399, desc:'5 juicy chicken stake pieces',  img:'https://cdn.pixabay.com/photo/2024/01/23/08/11/ai-generated-8527043_1280.jpg', badge:'Popular' },
 
   // ── SODA & DRINKS ─────────────────────────────────────────
   { id:64, cat:'drinks', name:'1.5 Liter Cold Drink',  price:199, desc:'1.5L bottle  Pepsi / 7Up / Mirinda',      img:'https://images.unsplash.com/photo-1554866585-cd94860890b7?w=500&q=85', badge:''           },
   { id:65, cat:'drinks', name:'1 Liter Cold Drink',    price:150, desc:'1L cold drink bottle',                     img:'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&q=85', badge:''           },
   { id:66, cat:'drinks', name:'500ml Cold Drink',      price:99,  desc:'500ml cold drink can / bottle',            img:'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&q=85', badge:''           },
-  { id:67, cat:'drinks', name:'Masala Lemon Soda',     price:99,  desc:'Tangy house masala lemon soda',            img:'https://images.unsplash.com/photo-1437418747212-8d9709afab22?w=500&q=85', badge:''           },
-  { id:68, cat:'drinks', name:'Pineapple Soda',        price:199, desc:'Refreshing pineapple soda',                img:'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=85', badge:''           },
-  { id:69, cat:'drinks', name:'Mint Margarita',        price:150, desc:'Cool & refreshing mint margarita',         img:'https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500&q=85', badge:'Refreshing' },
-  { id:70, cat:'drinks', name:'Doodh Soda',            price:199, desc:'Classic Doodh Soda',                       img:'https://images.unsplash.com/photo-1546173159-315724a31696?w=500&q=85', badge:''           },
-  { id:71, cat:'drinks', name:'Mix Fruit Soda',        price:299, desc:'Blend of refreshing fruit sodas',          img:'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=85', badge:''           },
+  { id:67, cat:'drinks', name:'Masala Lemon Soda',     price:99,  desc:'Tangy house masala lemon soda',            img:'https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500&q=85', badge:''           },
+  { id:68, cat:'drinks', name:'Pineapple Soda',        price:199, desc:'Refreshing pineapple soda',                img:'https://cdn.pixabay.com/photo/2024/01/04/13/06/ai-generated-8487401_1280.jpg', badge:''           },
+  { id:69, cat:'drinks', name:'Mint Margarita',        price:150, desc:'Cool & refreshing mint margarita',         img:'https://cdn.pixabay.com/photo/2023/03/03/15/55/ai-generated-7827942_1280.jpg', badge:'Refreshing' },
+  { id:70, cat:'drinks', name:'Doodh Soda',            price:199, desc:'Classic Doodh Soda',                       img:'https://cdn.pixabay.com/photo/2025/01/09/18/42/ai-generated-9322382_1280.jpg', badge:''           },
+  { id:71, cat:'drinks', name:'Mix Fruit Soda',        price:299, desc:'Blend of refreshing fruit sodas',          img:'https://cdn.pixabay.com/photo/2024/05/09/14/21/apple-juice-8751130_1280.png', badge:''           },
 
   // ── CHAAT & REFRESHMENT ───────────────────────────────────
   { id:72, cat:'chaat', name:'Tikka Malai Boti Samosa (12 pcs)', price:420, desc:'12 crispy stuffed samosas',            img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:'Popular' },
